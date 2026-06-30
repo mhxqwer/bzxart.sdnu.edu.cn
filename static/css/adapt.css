@@ -1,0 +1,190 @@
+﻿@media only screen and (max-width: 1400px) {
+  .m_header {
+    display: block;
+  }
+
+  .pc_header {
+    display: none;
+  }
+  .mc_ph_hd {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+
+  .main_container {
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .news {
+    width: 100%;
+  }
+
+  .news_cr {
+    flex: 1;
+  }
+
+  .notice {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .recruit {
+    width: 100%;
+  }
+
+  .sw {
+    margin: 50px 0 0 0;
+  }
+
+  .sw_c {
+    width: 100%;
+  }
+
+  .fc_r {
+    display: none;
+  }
+
+  .gwb_t {
+    font-size: 32px
+  }
+  .gwb_s {
+    font-size: 24px;
+  }
+}
+
+
+@media screen and (max-width: 750px) {
+  .news_container {
+    display: block;
+  }
+  .news_cl {
+    width: 100%;
+  }
+  .news_cr {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .he_nweimg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .f_c {
+    display: block;
+  }
+
+  .ll_item {
+    display: block;
+  }
+
+  .jj_d_img {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .m_logo1 {
+    width: 109px;
+    vertical-align: middle;
+  }
+
+  .m_logo2 {
+    margin: 0 7px;
+    width: 1px;
+    vertical-align: middle;
+  }
+
+  .m_logo3 {
+    width: 131px;
+    vertical-align: middle;
+  }
+
+  .t_mian {
+    display: none;
+  }
+
+  .xq_tab_item {
+    padding-top: 2px;
+  }
+
+  .f_logo {
+    display: none;
+  }
+
+
+  .footer {
+    padding-top: 20px;
+    height: 200px;
+  }
+
+  .footer_c {
+    width: 100%;
+    margin: 0;
+  }
+
+  .f_text {
+    font-size: 14px;
+  }
+
+  .news_top {
+    margin: 30px 0;
+  }
+
+  .common_title {
+    font-size: 24px;
+  }
+
+  .common_more_span {
+    font-size: 16px;
+  }
+
+  .common_more_img {
+    background: url("../images/more.png") no-repeat;
+    background-size: 100%;
+    width: 20px;
+    height: 20px;
+  }
+
+  .main_container {
+    padding-bottom: 40px !important;
+  }
+
+  .gwb_t {
+    font-size: 18px
+  }
+  .gwb_s {
+    font-size: 16px;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  .t_lixu a:hover .t_wen {
+    color: #333;
+  }
+
+  .t_lixu a:hover .t_wen::after {
+    color: #333;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .t_cenle {
+    display: none;
+  }
+
+  .g_content {
+    width: 100%;
+    margin: 0;
+  }
+
+  .t_cenrg {
+    width: 100%;
+  }
+}
+
